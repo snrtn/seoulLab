@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { SSection, SAppbar, SToolbar, SArticle } from './navbar.styles';
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <SSection>
+      <SAppbar>
+        <SToolbar>
+          <SArticle>asdasd</SArticle>
+        </SToolbar>
+      </SAppbar>
+    </SSection>
   )
 }
 
